@@ -44,7 +44,7 @@ export function SelectedWork() {
             transition={{ duration: 0.9, delay: i * 0.05, ease }}
           >
             <Link
-              href={`/work#${project.slug}`}
+              href={`/work/${project.slug}`}
               className={`group block ${i === 0 ? "" : ""}`}
             >
               <div className="grid items-center gap-5 lg:grid-cols-12 lg:gap-8">

@@ -62,7 +62,7 @@ export function WorkLibrary() {
               transition={{ duration: 0.6, delay: (i % 2) * 0.06, ease }}
               className="scroll-mt-32"
             >
-              <Link href={`/work#${project.slug}`} className="group block">
+              <Link href={`/work/${project.slug}`} className="group block">
                 <div className="relative aspect-[4/3] overflow-hidden rounded-3xl">
                   <motion.div
                     className="h-full w-full"
