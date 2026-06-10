@@ -2,26 +2,12 @@
 
 import Link from "next/link";
 import { LogoMark } from "@/components/icons/LogoMark";
-import { Marquee } from "@/components/ui/Marquee";
 import { nav } from "@/lib/data";
 
 export function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className="relative mt-32 overflow-hidden border-t border-fg/10 pb-10 pt-16 sm:mt-44">
-      <Marquee className="mb-16 select-none border-y border-fg/10 py-5">
-        {["Visual Design", "Content Creation", "Art Direction", "Motion", "AI Workflows", "Social Strategy"].map(
-          (w) => (
-            <span key={w} className="flex items-center">
-              <span className="whitespace-nowrap px-7 text-2xl font-semibold tracking-tight text-muted sm:text-3xl">
-                {w}
-              </span>
-              <span className="text-lg text-fg/25">✦</span>
-            </span>
-          )
-        )}
-      </Marquee>
-
+    <footer className="relative mt-32 overflow-hidden border-t border-fg/10 pb-10 pt-20 sm:mt-44">
       <div className="container-x">
         <div className="flex flex-col gap-12 md:flex-row md:items-end md:justify-between">
           <div>
