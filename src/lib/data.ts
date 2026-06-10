@@ -315,51 +315,38 @@ export const clients: Client[] = [
 export type Testimonial = {
   name: string;
   role: string;
-  messages: string[];
-  reaction?: string;
-  delivered?: string;
+  message: string;
+  reaction: string;
 };
 
 export const testimonials: Testimonial[] = [
   {
     name: "Alex",
     role: "Founder, byAlex.gg",
-    messages: [
-      "ok the new reels are insane 😭",
-      "engagement literally doubled this week",
-      "you just get the vibe without me explaining it",
-    ],
+    message:
+      "ok the new reels are actually insane 😭 engagement literally doubled this week and you just get the vibe without me even having to explain it",
     reaction: "❤️",
-    delivered: "Delivered",
   },
   {
     name: "Lena",
     role: "Marketing Lead, SunDevs",
-    messages: [
-      "the content system you built is a lifesaver",
-      "our whole team ships posts in minutes now and it still looks premium",
-    ],
-    reaction: "👍",
+    message:
+      "the content system you built is a total lifesaver — our whole team ships posts in minutes now and it somehow still looks premium every single time",
+    reaction: "🔥",
   },
   {
     name: "Daniel",
     role: "Community, ChromieCraft",
-    messages: [
-      "the launch visuals went off",
-      "people in discord were asking who designed them lol",
-      "fastest turnaround i've ever had with a designer too",
-    ],
-    reaction: "‼️",
-    delivered: "Delivered",
+    message:
+      "the launch visuals completely went off 🎉 people in our discord were literally asking who designed them. fastest turnaround i've ever had with a designer too",
+    reaction: "🎉",
   },
   {
     name: "Sophie",
     role: "Art Director, Adler",
-    messages: [
-      "honestly one of the most reliable designers we've had",
-      "great eye, zero drama, always early",
-    ],
-    reaction: "😮",
+    message:
+      "honestly one of the most reliable designers we've worked with. great eye, zero drama, and always early on deadlines",
+    reaction: "👏",
   },
 ];
 
