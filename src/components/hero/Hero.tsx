@@ -66,7 +66,7 @@ export function Hero() {
           className="pointer-events-none absolute inset-x-0 top-1/2 z-0 flex -translate-y-1/2 select-none justify-center"
           aria-label="Marvin — Visual & Content Designer"
         >
-          <span className="display whitespace-nowrap text-[26vw] leading-none tracking-tightest sm:text-[24vw] lg:text-[22vw]">
+          <span className="display whitespace-nowrap text-[min(26vw,30vh)] leading-none tracking-tightest sm:text-[min(24vw,32vh)] lg:text-[min(22vw,34vh)]">
             {"MARVIN".split("").map((c, i) => (
               <motion.span
                 key={i}
@@ -114,7 +114,7 @@ export function Hero() {
       {/* Bottom row */}
       <motion.div
         style={{ opacity: fade }}
-        className="container-x mt-6 flex flex-col gap-8 sm:mt-0 sm:flex-row sm:items-end sm:justify-between"
+        className="container-x relative z-20 mt-6 flex flex-col gap-8 sm:mt-0 sm:flex-row sm:items-end sm:justify-between"
       >
         <motion.div
           initial={{ opacity: 0, y: 18 }}
