@@ -10,9 +10,9 @@ export function Marquee({
   className?: string;
 }) {
   return (
-    <div className={`relative flex overflow-hidden ${className ?? ""}`}>
+    <div className={`overflow-hidden ${className ?? ""}`}>
       <div
-        className={`flex shrink-0 ${
+        className={`flex w-max ${
           reverse ? "animate-marquee-reverse" : "animate-marquee"
         } [will-change:transform]`}
       >
