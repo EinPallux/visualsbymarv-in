@@ -12,11 +12,11 @@ export function Footer() {
       <Marquee className="mb-16 select-none border-y border-fg/10 py-5">
         {["Visual Design", "Content Creation", "Art Direction", "Motion", "AI Workflows", "Social Strategy"].map(
           (w) => (
-            <span
-              key={w}
-              className="mx-6 text-2xl font-semibold tracking-tight text-muted sm:text-3xl"
-            >
-              {w} <span className="text-fg/30">✦</span>
+            <span key={w} className="flex items-center">
+              <span className="whitespace-nowrap px-7 text-2xl font-semibold tracking-tight text-muted sm:text-3xl">
+                {w}
+              </span>
+              <span className="text-lg text-fg/25">✦</span>
             </span>
           )
         )}
