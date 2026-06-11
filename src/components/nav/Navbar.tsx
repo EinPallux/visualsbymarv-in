@@ -44,7 +44,7 @@ export function Navbar() {
             <Link href="/" className="group flex items-center gap-2.5 pl-1">
               <LogoMark className="h-4 w-auto transition-transform duration-500 group-hover:-rotate-12" />
               <span className="text-[15px] font-extrabold tracking-tight">
-                marv<span className="text-muted">.</span>
+                marvin<span className="text-muted">.</span>
               </span>
             </Link>
 

@@ -13,7 +13,7 @@ export function Footer() {
           <div>
             <p className="label mb-5">Let’s make something loud</p>
             <a
-              href="mailto:hello@visualsbymarv.in"
+              href="mailto:hello@visualsbymarvin.in"
               className="display block text-[12vw] leading-[0.85] tracking-tightest sm:text-7xl lg:text-8xl"
             >
               Say hi
@@ -50,7 +50,7 @@ export function Footer() {
                 LinkedIn
               </a>
               <a
-                href="mailto:hello@visualsbymarv.in"
+                href="mailto:hello@visualsbymarvin.in"
                 className="link-underline"
               >
                 Email
@@ -62,7 +62,7 @@ export function Footer() {
         <div className="mt-16 flex flex-col items-start justify-between gap-4 border-t border-fg/10 pt-6 text-xs text-muted sm:flex-row sm:items-center">
           <div className="flex items-center gap-2.5">
             <LogoMark className="h-3.5 w-auto" />
-            <span>© {year} Marvin — Visuals by Marv</span>
+            <span>© {year} Marvin — VisualsByMarvin</span>
           </div>
           <p>Made in Germany · Built with Next.js & a lot of taste</p>
         </div>
