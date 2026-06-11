@@ -12,13 +12,13 @@ const jakarta = Plus_Jakarta_Sans({
   weight: ["300", "400", "500", "600", "700", "800"],
 });
 
-const siteUrl = "https://visualsbymarv.vercel.app";
+const siteUrl = "https://visualsbymarvin.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
     default: "Marvin — Visual & Content Designer",
-    template: "%s — Visuals by Marv",
+    template: "%s — VisualsByMarvin",
   },
   description:
     "Marvin is a German graphic & content designer crafting social-first brand visuals that move. B.A. Media Design. Figma, Photoshop, Illustrator & modern AI workflows.",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     description:
       "Social-first brand visuals that move. Designed in Germany.",
     url: siteUrl,
-    siteName: "Visuals by Marv",
+    siteName: "VisualsByMarvin",
     type: "website",
     locale: "en_US",
   },
